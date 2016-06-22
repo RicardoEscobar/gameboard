@@ -28,6 +28,10 @@ var main = function() {
   $('.share').click(function() {
     $(this).next().toggle();
   });
+
+  $('.notification').click(function() {
+    $(this).toggleClass('active');
+  })
 };
 
 $(document).ready(main);
